@@ -13,7 +13,6 @@ Use the following link to make a DO account: [https://m.do.co/c/4d7f4ff9cfe4 ](u
 Enter the Control Panel and locate Droplets under the Manage label. 
 
 Hit Create and follow the next steps:
-```
 1. Select your region. I chose New York.
 2. Select a datacenter. I chose Datacenter 1.
 3. Select an image. I chose Ubuntu 20.04 LTS for my OS and selected the Docker 19.03.12 Marketplace Application so that Docker would already be installed when I launched the droplet. 
@@ -21,7 +20,6 @@ Hit Create and follow the next steps:
 5. Select a CPU option. I chose the $6 a month option (1 GB / 1 CPU, 25 GB SSD disk, and 1000 GB transfer) with the Regular with SSD option 
 6. Select an authentication method. I chose to the use password method since I intended to delete my droplet right after I completed the project. 
 7. Hit Create Droplet and your droplet is now able to be used!
-```
 
 # Setup Wireguard
 
@@ -208,8 +206,8 @@ You now have your Wireguard VPN working on your computer!
 This was my computers's IP address before and after I used the Wireguard VPN:
 
 Before:
-![Screenshot (34)](https://user-images.githubusercontent.com/114512130/202824586-b33c6e5e-67c6-49d8-9f60-b7c4f162400e.png)
 ![Screenshot (40)](https://user-images.githubusercontent.com/114512130/202824460-b9765972-0c8f-4d6f-a05f-eb4f559f8c40.png)
+![Screenshot (34)](https://user-images.githubusercontent.com/114512130/202824586-b33c6e5e-67c6-49d8-9f60-b7c4f162400e.png)
 
 After:
 ![Screenshot (41)](https://user-images.githubusercontent.com/114512130/202824543-68186fda-49f3-45c1-9d5f-4beea684272e.png)
