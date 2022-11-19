@@ -127,12 +127,10 @@ You now have your Wireguard VPN working on your phone!
 This was my phone's IP address before and after I used the Wireguard VPN on my phone:
 
 Before: 
-![IMG_0410](https://user-images.githubusercontent.com/114512130/202824779-c9fdc83b-0a99-42bf-8e81-70a15f5fe2cc.jpg)
+![Screenshot (96)](https://user-images.githubusercontent.com/114512130/202825537-bdbc4c2b-cea4-4119-9076-49733e57f345.png)
 
-After:
-![IMG_0411](https://user-images.githubusercontent.com/114512130/202824811-82857bba-183e-483d-b368-3c14e1a664b5.jpg)
-![IMG_0412](https://user-images.githubusercontent.com/114512130/202824816-7da72c32-2a17-4359-ae19-59953e7a4539.jpg)
-![IMG_0414](https://user-images.githubusercontent.com/114512130/202824828-b7341fa4-7dca-485f-b5e0-dfb473463ea6.jpg)
+After: 
+![Screenshot (95)](https://user-images.githubusercontent.com/114512130/202825407-c68c27ce-43f8-4508-af5a-bcf419411f96.png)
 
 # Using the Wireguard VPN on your computer
 
@@ -216,5 +214,4 @@ Before:
 After:
 ![Screenshot (41)](https://user-images.githubusercontent.com/114512130/202824543-68186fda-49f3-45c1-9d5f-4beea684272e.png)
 ![Screenshot (35)](https://user-images.githubusercontent.com/114512130/202824515-8a18e757-39be-4f2a-8d2b-a5926c7a5917.png)
-
 
