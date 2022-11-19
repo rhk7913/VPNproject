@@ -126,7 +126,13 @@ You now have your Wireguard VPN working on your phone!
 
 This was my phone's IP address before and after I used the Wireguard VPN on my phone:
 
+Before: 
+![IMG_0410](https://user-images.githubusercontent.com/114512130/202824779-c9fdc83b-0a99-42bf-8e81-70a15f5fe2cc.jpg)
 
+After:
+![IMG_0411](https://user-images.githubusercontent.com/114512130/202824811-82857bba-183e-483d-b368-3c14e1a664b5.jpg)
+![IMG_0412](https://user-images.githubusercontent.com/114512130/202824816-7da72c32-2a17-4359-ae19-59953e7a4539.jpg)
+![IMG_0414](https://user-images.githubusercontent.com/114512130/202824828-b7341fa4-7dca-485f-b5e0-dfb473463ea6.jpg)
 
 # Using the Wireguard VPN on your computer
 
@@ -202,3 +208,13 @@ Hit Save.
 You now have your Wireguard VPN working on your computer!
 
 This was my computers's IP address before and after I used the Wireguard VPN:
+
+Before:
+![Screenshot (34)](https://user-images.githubusercontent.com/114512130/202824586-b33c6e5e-67c6-49d8-9f60-b7c4f162400e.png)
+![Screenshot (40)](https://user-images.githubusercontent.com/114512130/202824460-b9765972-0c8f-4d6f-a05f-eb4f559f8c40.png)
+
+After:
+![Screenshot (41)](https://user-images.githubusercontent.com/114512130/202824543-68186fda-49f3-45c1-9d5f-4beea684272e.png)
+![Screenshot (35)](https://user-images.githubusercontent.com/114512130/202824515-8a18e757-39be-4f2a-8d2b-a5926c7a5917.png)
+
+
