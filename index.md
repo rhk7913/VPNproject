@@ -1,6 +1,8 @@
 # Creating a Wireguard VPN Server using Digital Ocean and Docker
 
-I used the following resources for the remaining steps: [https://thematrix.dev/setup-wireguard-vpn-server-with-docker/](url)
+Here is a link to my repo: [https://github.com/rhk7913/docker.github.io/](url)
+
+This page will outline how to create a Wireguard VPN Server on Digital Ocean using Docker.
 
 # Create a droplet on Digital Ocean (DO)
 
@@ -20,6 +22,9 @@ Hit Create and follow the next steps:
 5. Select a CPU option. I chose the $6 a month option (1 GB / 1 CPU, 25 GB SSD disk, and 1000 GB transfer) with the Regular with SSD option.
 6. Select an authentication method. I chose to the use password method since I intended to delete my droplet right after I completed the project. 
 7. Hit Create Droplet and your droplet is now able to be used!
+
+## Note  
+I used the following resource for the remaining steps: [https://thematrix.dev/setup-wireguard-vpn-server-with-docker/](url)
 
 # Setup Wireguard
 
