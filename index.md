@@ -4,11 +4,11 @@ I used the following resources for the remaining steps: [https://thematrix.dev/s
 
 # Create a droplet on Digital Ocean (DO)
 
-A droplet is a virtual machine (VM) that runs on top of virtualized hardware.
+A Digital Ocean droplet is a virtual machine (VM) that is ran on top of virtualized hardware.
 
-Use the following link to make a DO account: [https://m.do.co/c/4d7f4ff9cfe4 ](url)
+Go to the following link to make a DO account: [https://m.do.co/c/4d7f4ff9cfe4 ](url)
 
-**Note:** You will need to enter a credit card for verification, however you do have a 60-day trial so you won't be charged. 
+**Note:** You will need to enter a credit card to verify your account, however you won't be charged. 
 
 Enter the Control Panel and locate Droplets under the Manage label. 
 
@@ -17,7 +17,7 @@ Hit Create and follow the next steps:
 2. Select a datacenter. I chose Datacenter 1.
 3. Select an image. I chose Ubuntu 20.04 LTS for my OS and selected the Docker 19.03.12 Marketplace Application so that Docker would already be installed when I launched the droplet. 
 4. Select a Droplet Type. I chose to use the default option, the basic shared CPU.
-5. Select a CPU option. I chose the $6 a month option (1 GB / 1 CPU, 25 GB SSD disk, and 1000 GB transfer) with the Regular with SSD option 
+5. Select a CPU option. I chose the $6 a month option (1 GB / 1 CPU, 25 GB SSD disk, and 1000 GB transfer) with the Regular with SSD option.
 6. Select an authentication method. I chose to the use password method since I intended to delete my droplet right after I completed the project. 
 7. Hit Create Droplet and your droplet is now able to be used!
 
@@ -25,7 +25,7 @@ Hit Create and follow the next steps:
 
 Wireguard is a open source program that allows you to create encrypted virtual private networks (VPNs). 
 
-After your droplet has been created and provisioned, you will have the ability to either ssh into the droplet from a local host terminal or through a console on your droplet itself. I chose to use the console located on my droplet.
+After your droplet has been created and provisioned, you will have the ability to either ssh into the droplet from a local host terminal or through a console on your droplet itself. I chose to launch the console the droplet itself.
 
 Hit the Console button and a window should appear. You are now inside the droplet's console!
 
@@ -35,9 +35,9 @@ mkdir -p ~/wireguard/
 mkdir -p ~/wireguard/config/
 ```
 
-A YAML file, which is used for configuration processes, including applications that deal with storing and transmitting data, is needed here to configure the Docker container hoting the Wireguard VPN server. 
+A YAML file, which is used for configuration processes including applications that deal with storing and transmitting data, is needed here to configure the Docker container hoting the Wireguard VPN server. 
 
-Install your preferred text editor. I chose to use nano.
+Install your preferred text editor. I chose to use nano here.
 
 The following command will create a Docker Compose YAML file for the Wireguard VPN server:
 ```
@@ -82,7 +82,7 @@ However, don't save and exit the file yet! There are a number of fields that nee
 2. You will need to change the SERVERURL field to your droplet's Public IPV4 address. To find this address, locate the Networking menu on your droplet. My particular Public IPV4 address was 24.199.88.147.
 3. You may choose to alter the PEERS field, which is the number of user-config files generated when the Docker Container is created, but I chose to leave the default option. 
 
-**Optional change:** You can change the default SERVERPORT option to port 80 so that the port of the VPN may not be blocked on a public Wi-FI network, however leaving the SERVERPORT as 51820 is fine.
+**Optional change:** You can change the default SERVERPORT option to port 80 so that the port of the VPN may not be blocked on a public Wi-FI network, however leaving SERVERPORT as 51820 is fine.
 
 Hit CTRL + X, Y, and Enter to save and exit the YAML file.
 
@@ -109,7 +109,7 @@ Once you see "Creating wireguard... done", your Wireguard VPN server is setup!
 
 # Using the Wireguard VPN on your phone
 
-The following command will display the execution log and QR codes of the newly created Wireguard VPN
+The following command will display the execution log and QR codes of the newly created Wireguard VPN:
 ```
 docker-compose logs -f wireguard
 ```
@@ -141,7 +141,7 @@ The following command will change to the ~/wireguard/config directory from your 
 cd ~/wireguard/config
 ```
 
-The following command will list all the files and directories in the ~/wireguard/config directory
+The following command will list all the files and directories in the ~/wireguard/config directory:
 ```
 ls
 ```
@@ -158,7 +158,7 @@ For instance, I used the following command to change into the peer_pc1 directory
 cd peer_pc1
 ```
 
-The following command will list all the files and directories in the PEER option directory
+The following command will list all the files and directories in the PEER option directory:
 ```
 ls
 ```
@@ -188,7 +188,7 @@ Endpoint = 24.199.88.147:51820
 AllowedIPs = 0.0.0.0/0, ::/0
 ```
 
-**Note:** I did not omit the public and private key information, since I intended to delete my droplet right after I completed the project. 
+**Note:** I did not hide the public and private key information, since I deleted my droplet right after I completed the project. 
 
 Open up the Wireguard application. Hit CTRL + N to create a new empty tunnel. 
 
@@ -203,7 +203,7 @@ Hit Save.
 
 You now have your Wireguard VPN working on your computer!
 
-This was my computers's IP address before and after I used the Wireguard VPN:
+This was my computers's IP address before and after using the Wireguard VPN:
 
 Before:
 ![Screenshot (40)](https://user-images.githubusercontent.com/114512130/202824460-b9765972-0c8f-4d6f-a05f-eb4f559f8c40.png)
