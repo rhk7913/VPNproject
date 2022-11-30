@@ -34,7 +34,7 @@ After your droplet has been created and provisioned, you will have the ability t
 
 Hit the Console button and a window should appear. You are now inside the droplet's console!
 
-The following commands will create two different directories used to setup Wireguard
+The following commands will create two different directories used to setup Wireguard:
 ```
 mkdir -p ~/wireguard/
 mkdir -p ~/wireguard/config/
@@ -127,7 +127,7 @@ Enter the app and hit the + button. Select the Create from QR Code option.
 
 You now have your Wireguard VPN working on your phone!
 
-This was my phone's IP address before and after I used the Wireguard VPN on my phone:
+This was my phone's IP address before and after using the Wireguard VPN:
 
 Before: 
 ![Screenshot (96)](https://user-images.githubusercontent.com/114512130/202825537-bdbc4c2b-cea4-4119-9076-49733e57f345.png)
@@ -193,7 +193,7 @@ Endpoint = 24.199.88.147:51820
 AllowedIPs = 0.0.0.0/0, ::/0
 ```
 
-**Note:** I did not hide the public and private key information, since I deleted my droplet right after I completed the project. 
+**Note:** I did not hide the public and private key information here since I destroyed my droplet right after I completed the project. I would also recommend that you destroy your droplet right after you finish setting up the Wireguard VPN so that you don't accidentally get charged for using it after the 60 day trial ends. 
 
 Open up the Wireguard application. Hit CTRL + N to create a new empty tunnel. 
 
@@ -217,4 +217,3 @@ Before:
 After:
 ![Screenshot (41)](https://user-images.githubusercontent.com/114512130/202824543-68186fda-49f3-45c1-9d5f-4beea684272e.png)
 ![Screenshot (35)](https://user-images.githubusercontent.com/114512130/202824515-8a18e757-39be-4f2a-8d2b-a5926c7a5917.png)
-
