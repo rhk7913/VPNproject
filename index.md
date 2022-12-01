@@ -1,6 +1,8 @@
 # Creating a Wireguard VPN Server using Digital Ocean and Docker
 
-Here is a link to my repo: [https://github.com/rhk7913/VPNproject](https://github.com/rhk7913/VPNproject)
+Here is a link to my repo: <https://github.com/rhk7913/VPNproject>
+
+https://github.com/rhk7913/VPNproject
 
 This page will outline how to create a Wireguard VPN Server on Digital Ocean using Docker.
 
