@@ -1,6 +1,6 @@
 # Creating a Wireguard VPN Server using Digital Ocean and Docker
 
-Here is a link to my repo: [https://github.com/rhk7913/docker.github.io/](url)
+Here is a link to my repo: [https://github.com/rhk7913/VPNproject](url)
 
 This page will outline how to create a Wireguard VPN Server on Digital Ocean using Docker.
 
@@ -40,7 +40,7 @@ mkdir -p ~/wireguard/
 mkdir -p ~/wireguard/config/
 ```
 
-A YAML file, which is used for configuration processes including applications that deal with storing and transmitting data, is needed here to configure the Docker container hoting the Wireguard VPN server. 
+A YAML file, which is used for configuration processes including applications that deal with storing and transmitting data, is needed here to configure the Docker container hosting the Wireguard VPN server. 
 
 Install your preferred text editor. I chose to use nano here.
 
@@ -178,7 +178,7 @@ For instance, I used the following command to display the contents of the peer_p
 cat peer_pc1.conf
 ```
 
-This is what my configuration file looked like:
+This is what my configuration file contained:
 ```
 [Interface]
 Address = 10.0.0.2
