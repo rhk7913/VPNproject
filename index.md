@@ -129,10 +129,12 @@ You now have your Wireguard VPN working on your phone!
 
 This was my phone's IP address before and after using the Wireguard VPN:
 
-Before: 
+**Before**
+
 ![Screenshot (96)](https://user-images.githubusercontent.com/114512130/202825537-bdbc4c2b-cea4-4119-9076-49733e57f345.png)
 
-After: 
+**After**
+
 ![Screenshot (95)](https://user-images.githubusercontent.com/114512130/202825407-c68c27ce-43f8-4508-af5a-bcf419411f96.png)
 
 # Using the Wireguard VPN on your computer
@@ -201,7 +203,8 @@ Copy and paste the information from your configuration file.
 
 **Note:** I found it easiest to place the information in a .txt file before pasting it into the field since it was difficult to copy and paste the information directly from the DO console. 
 
-This is what my tunnel information looked like:
+**This is what my tunnel information looked like**
+
 ![Screenshot (42)](https://user-images.githubusercontent.com/114512130/202824290-ca02541c-ea19-4206-aa1c-bb2469c30a0b.png)
 
 Hit Save.
@@ -210,10 +213,12 @@ You now have your Wireguard VPN working on your computer!
 
 This was my computers's IP address before and after using the Wireguard VPN:
 
-Before:
+**Before**
+
 ![Screenshot (40)](https://user-images.githubusercontent.com/114512130/202824460-b9765972-0c8f-4d6f-a05f-eb4f559f8c40.png)
 ![Screenshot (34)](https://user-images.githubusercontent.com/114512130/202824586-b33c6e5e-67c6-49d8-9f60-b7c4f162400e.png)
 
-After:
+**After**
+
 ![Screenshot (41)](https://user-images.githubusercontent.com/114512130/202824543-68186fda-49f3-45c1-9d5f-4beea684272e.png)
 ![Screenshot (35)](https://user-images.githubusercontent.com/114512130/202824515-8a18e757-39be-4f2a-8d2b-a5926c7a5917.png)
