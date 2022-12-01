@@ -2,15 +2,13 @@
 
 Here is a link to my repo: <https://github.com/rhk7913/VPNproject>
 
-https://github.com/rhk7913/VPNproject
-
 This page will outline how to create a Wireguard VPN Server on Digital Ocean using Docker.
 
 # Create a droplet on Digital Ocean (DO)
 
 A Digital Ocean droplet is a virtual machine (VM) that is ran on top of virtualized hardware.
 
-[Go to the following link to make a DO account](https://m.do.co/c/4d7f4ff9cfe4)
+Go to the following link to make a DO account: <https://m.do.co/c/4d7f4ff9cfe4>
 
 **Note:** You will need to enter a credit card to verify your account, however you won't be charged. 
 
@@ -26,7 +24,7 @@ Hit Create and follow the next steps:
 7. Hit Create Droplet and your droplet is now able to be used!
 
 ## Note  
-[I used the following resource for the remaining steps](https://thematrix.dev/setup-wireguard-vpn-server-with-docker/)
+I used the following resource for the remaining steps: <https://thematrix.dev/setup-wireguard-vpn-server-with-docker/>
 
 # Setup Wireguard
 
@@ -85,7 +83,7 @@ services:
 ```
 
 However, don't save and exit the file yet! There are a number of fields that need to be modified:
-1. [You will need to select your specific TZ from](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones). I chose America/Chicago for my TZ. 
+1. You will need to select your specific TZ from <https://en.wikipedia.org/wiki/List_of_tz_database_time_zones>. I chose America/Chicago for my TZ. 
 2. You will need to change the SERVERURL field to your droplet's Public IPV4 address. To find this address, locate the Networking menu on your droplet. My particular Public IPV4 address was 24.199.88.147.
 3. You may choose to alter the PEERS field, which is the number of user-config files generated when the Docker Container is created, but I chose to leave the default option. 
 
@@ -139,7 +137,7 @@ After:
 
 # Using the Wireguard VPN on your computer
 
-Download the Wireguard application on your computer from (https://www.wireguard.com/install/).
+Download the Wireguard application on your computer from <https://www.wireguard.com/install/>.
 
 To connect your computer to the Wireguard VPN you will need to change into the ~/wireguard/config directory.
 
